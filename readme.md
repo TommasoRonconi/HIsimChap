@@ -5,5 +5,6 @@ This repository contains material used for preparation of the  [next SKAO Scienc
 Content:
 - [HItools package](HItools) for the dataset-analysis
 - notebooks for plotting
-- datasets(?)
+- measurements performed on each method
+- [literature values](literature)
 
