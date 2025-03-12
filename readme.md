@@ -8,3 +8,10 @@ Content:
 - measurements performed on each method
 - [literature values](literature)
 
+## PIP-Install the python package
+
+The package containing the tools to run the standardised analysis can be installed with
+
+```bash
+$ pip install git+https://github.com/TommasoRonconi/HIsimChap.git
+```
