@@ -15,3 +15,11 @@ The package containing the tools to run the standardised analysis can be install
 ```bash
 pip install git+https://github.com/TommasoRonconi/HIsimChap.git
 ```
+
+### Upgrade
+
+To upgrade to the latest stable version run
+
+```bash
+pip install --upgrade git+https://github.com/TommasoRonconi/HIsimChap.git
+```
