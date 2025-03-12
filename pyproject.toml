@@ -19,7 +19,8 @@ dependencies = [
     'numpy',
     'scipy',
     'matplotlib>=3.6',
-    'h5py'
+    'h5py',
+    'healpy',
 ]
 requires-python = ">=3.7"
 
