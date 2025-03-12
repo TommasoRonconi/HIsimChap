@@ -13,5 +13,5 @@ Content:
 The package containing the tools to run the standardised analysis can be installed with
 
 ```bash
-$ pip install git+https://github.com/TommasoRonconi/HIsimChap.git
+pip install git+https://github.com/TommasoRonconi/HIsimChap.git
 ```
