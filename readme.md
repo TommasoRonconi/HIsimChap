@@ -6,7 +6,7 @@ Content:
 - [HItools package](HItools) for the dataset-analysis
 - [notebooks](notebooks) with examples for measuring and (w.i.p.) for plotting
   - [notebooks/hi_sim_analysis_example](notebooks/hi_sim_analysis_example.ipynb) contains an example for the measures used in the chapter
-- measurements performed on each method
+- [measurements](measurements) performed on each method
 - [literature values](literature)
 
 ## PIP-Install the python package
