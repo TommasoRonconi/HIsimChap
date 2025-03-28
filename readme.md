@@ -4,7 +4,8 @@ This repository contains material used for preparation of the  [next SKAO Scienc
 
 Content:
 - [HItools package](HItools) for the dataset-analysis
-- notebooks for plotting
+- [notebooks](notebooks) with examples for measuring and (w.i.p.) for plotting
+  - [notebooks/hi_sim_analysis_example](notebooks/hi_sim_analysis_example) contains an example for the measures used in the chapter
 - measurements performed on each method
 - [literature values](literature)
 
