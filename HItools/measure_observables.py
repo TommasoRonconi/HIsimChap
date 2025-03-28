@@ -6,14 +6,11 @@ import numpy
 ##############################################################################################
 # statistics
 
-z_bins = numpy.linspace(0,3,25)
-M_bins = numpy.logspace(5,15,41)
-
 ##########################
 # 1-point
 
 # redshift distribution (IM: z<3, Gxys: z<0.5)
-def redshift_distribution ( redshift, zbins=z_bins ) :
+def redshift_distribution ( redshift, zbins=10 ) :
     return numpy.histogram( redshift, bins=zbins )[0]
 
 # Omega_HI
@@ -21,7 +18,7 @@ def Omega_HI ( MHI_tot, rho_crit0, Volume = 1.0 ) :
     return MHI_tot / Volume / rho_crit0
 
 # MHI-Mh relation
-def MHIMh_relation ( MHI, Mh, bins=(M_bins, M_bins) ) :
+def MHIMh_relation ( MHI, Mh, bins=10 ) :
     """Returns the 2D histogram with Mh to MHI relation.
     The first dimension runs on the HI mass and 
     the second dimension on the halo mass
@@ -45,7 +42,7 @@ def MHIMh_relation ( MHI, Mh, bins=(M_bins, M_bins) ) :
     return numpy.histogram2d( MHI, Mh, bins=bins )
 
 # HI mass function
-def dnHIdlnMHI ( MHI, bins=M_bins, Volume = 1.0 ) :
+def dnHIdlnMHI ( MHI, bins=10, Volume = 1.0 ) :
     """Computes the HI mass function
 
     Parameters
